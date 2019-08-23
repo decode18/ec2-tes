@@ -10,4 +10,6 @@ unzip master.zip
 sudo rm -Rf /var/www/html/
 mkdir -p /var/www/html
 sudo mv sosial-media-master/* /var/www/html
+cd ~/
+./database dbsosmed devopscilsy 1234567890
 echo "Setup selesai"
