@@ -13,6 +13,4 @@ sudo mv sosial-media-master/* /var/www/html
 cd ~/
 chmod +x database
 ./database dbsosmed devopscilsy 1234567890
-cd  /var/www/html/sosial-media-master
-sudo mysql -u devopscilsy -p dbsosmed < dump.sql
 echo "Setup selesai"
