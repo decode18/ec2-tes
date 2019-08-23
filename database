@@ -20,4 +20,11 @@ fi
  
 $MYSQL -uroot -p -e "$SQL"
 
+cd /var/www/html/sosial-media-master
+sudo mysql -u devopscilsy -p dbsosmed < dump.sql 
+$3 $E_BADARGS 
+
 ok "Database $1 and user $2 created with a password $3"
+
+
+
