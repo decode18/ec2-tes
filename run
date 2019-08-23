@@ -12,5 +12,5 @@ mkdir -p /var/www/html
 sudo mv sosial-media-master/* /var/www/html
 cd ~/
 chmod +x database
-./database dbsosmed devopscilsy 1234567890
+#./database dbsosmed devopscilsy 1234567890
 echo "Setup selesai"
